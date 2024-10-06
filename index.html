@@ -6,11 +6,15 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel ="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+    </style>
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
         <img> <!--add logo image-->
-        <ul class="nav nav-underline">
+        <ul class="nav nav-underline justify-content-end" id="nav">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
@@ -22,28 +26,43 @@
             </li>
           </ul>
     </nav>
-   <section id="header">
+   <section id="hero">
     <div class="image-container">
-        <img>
-        <div class="overlay-text"><h1>Bubble's Boba</h1></div>
+        
+        <div class="overlay-text fuzzy-bubbles-bold" id="hero-text"><p>Bubble's<br>Boba</p></div>
     </div>
    </section> 
-   <section id="menu">
-    <h2>Our Menu</h2>
-    <h3>Tropical Tide</h3>
-    <p>Dive into a refreshing wave of mango and pineapple green tea with bursts of passion fruit popping boba, transporting you straight to a tropical paradise.</p>
-    <h3>Siren's Song</h3>
-    <p>A hypnotic mix of lavender milk tea and taro pearls, this soothing, creamy treat is as captivating as the ocean's hidden depths.
-    </p>
-    <h3>Ocean Breeze</h3>
-    <p>A light and zesty lemon-lime tea with fresh mint and lychee jelly. This crisp and refreshing drink is like a cool breeze on a sunny day at the beach.</p>
-    <h3>Coral Reef Cooler</h3>
-    <p>A vivid fusion of strawberry and hibiscus tea, adorned with peach boba pearls. Its bold colors and flavors will remind you of the vibrant life beneath the waves.</p>
-    <h3>Pearl of the Pacific</h3>
-    <p>A tropical coconut milk tea infused with lychee and pineapple, topped with classic tapioca pearls. It's like sipping the Pacific with every creamy, tropical taste.
-     </p>
-    <h3>Deep Sea Delight</h3>
-    <p>A rich and indulgent chocolate milk tea with sea salt foam and brown sugar boba, offering a taste as deep and satisfying as the ocean's mysteries.</p>
+   <section id="menu-items">
+    <h2 id="menu">Our Menu</h2>
+    <div>
+        <div class="drink" >
+        <img id="boba-tt" src="boba1.png">
+        </div>
+        <h3>Tropical Tide</h3>
+        <p>Dive into a refreshing wave of mango and pineapple green tea with bursts of passion fruit popping boba, transporting you straight to a tropical paradise.</p>
+    </div>
+    <div>
+        <h3 class="drink">Siren's Song</h3>
+        <p>A hypnotic mix of lavender milk tea and taro pearls, this soothing, creamy treat is as captivating as the ocean's hidden depths.
+        </p>
+    </div>
+    <div>
+        <h3 class="drink">Ocean Breeze</h3>
+        <p>A light and zesty lemon-lime tea with fresh mint and lychee jelly. This crisp and refreshing drink is like a cool breeze on a sunny day at the beach.</p>
+    </div>
+    <div>
+        <h3 class="drink">Coral Reef Cooler</h3>
+        <p>A vivid fusion of strawberry and hibiscus tea, adorned with peach boba pearls. Its bold colors and flavors will remind you of the vibrant life beneath the waves.</p>
+    </div>
+    <div>
+        <h3 class="drink">Pearl of the Pacific</h3>
+        <p>A tropical coconut milk tea infused with lychee and pineapple, topped with classic tapioca pearls. It's like sipping the Pacific with every creamy, tropical taste.
+        </p>
+    </div>
+    <div>
+        <h3 class="drink">Deep Sea Delight</h3>
+        <p>A rich and indulgent chocolate milk tea with sea salt foam and brown sugar boba, offering a taste as deep and satisfying as the ocean's mysteries.</p>
+    </div>
     <button>Order Now</button>
    </section>
 </body>

@@ -1,0 +1,60 @@
+body{
+    font-family: 'Fuzzy Bubbles';
+    background-color: #F2F3F4;
+}
+/*nav*/
+a:link{
+    color: #36454f;
+}
+
+a:visited { 
+    color: #36454f;
+}
+
+#navbar{
+    background-color: #F2F3F4;
+    --bs-nav-link-hover-color: #36454f;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    position: sticky;
+    top:0;
+}
+
+/*Hero*/
+#hero{
+    background-color: #81b8ce;
+    height: 75vh;
+}
+
+.fuzzy-bubbles-bold {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+} 
+
+#hero-text{
+    color: #F2F3F4 ;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    font-size: 80px;
+    padding-top: 10%;
+}
+
+#menu{
+    padding-top: 5%;
+    text-align: center;
+}
+
+
+.drink{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    display:flex;
+    padding: 5%;
+    background-color: #81b8ce ;
+}
+
+#boba-tt{
+    justify-content: center;
+}
